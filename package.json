@@ -1,0 +1,23 @@
+{
+  "name": "com.ewpetech",
+  "version": "0.0.1",
+  "description": "MQTT Bridge for EWPE Smart powered air conditioners",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stas-demydiuk/ewpe-smart-mqtt.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Stanislav Demydiuk",
+  "license": "MIT",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "dgram": "^1.0.1",
+    "dotenv": "^8.1.0",
+    "events": "^3.1.0",
+    "mqtt": "^3.0.0",
+    "winston": "^3.2.1"
+  }
+}
